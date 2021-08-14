@@ -1,0 +1,37 @@
+from tkinter import *  // import tkinter module
+
+from time import strftime // import time module
+
+
+root = Tk() // create a window
+
+root.title('Clock') 
+
+root.configure(background='black') // set background colour
+
+root.wm_attributes('-transparentcolor','black') // here I select black color as transparent color
+
+root.overrideredirect(1) //hide close button and that bar
+
+
+
+def time():
+
+    string = strftime('%H:%M:%S %p')
+
+    lbl.config(text = string)
+
+    lbl.after(1000, time)
+
+
+lbl = Label(root, font = ('calibri', 40, 'bold'),
+
+            background = 'black',
+
+            foreground = 'white') // create label widget
+
+lbl.grid()
+
+time() // call time function
+
+root.mainloop()
