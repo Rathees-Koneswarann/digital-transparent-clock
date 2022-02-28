@@ -1,0 +1,12 @@
+ Volume in drive E has no label.
+ Volume Serial Number is BA1B-BF02
+
+ Directory of E:\digital-transparent-clock
+
+02/28/2022  11:03 AM    <DIR>          .
+02/28/2022  11:03 AM    <DIR>          ..
+02/28/2022  11:01 AM                68 README.md
+02/28/2022  11:03 AM                 0 sample.txt
+02/28/2022  11:01 AM               723 source-code
+               3 File(s)            791 bytes
+               2 Dir(s)  144,924,917,760 bytes free
